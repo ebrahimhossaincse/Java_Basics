@@ -5,14 +5,15 @@ package com.ebrahim.hossain.controlflowstatement;
  * SQA Engineer - Achieve Test Prep
  */
 
-public class DoWhileLoop {
+public class ForLoop {
 
 	public static void main(String[] args) {
-		int age = 10;
-		do {
-			System.out.println("Not Allowed! You Are Too Young For The Roller Coaster!");
-			age++;
-		} while (age < 15);
 		
+		for(int value = 1; value <= 20 ; value++)
+        {
+            System.out.println(value);
+        }
+
 	}
+
 }
